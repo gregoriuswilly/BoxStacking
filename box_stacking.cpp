@@ -1,4 +1,8 @@
-/* Dynamic Programming implementation of Box Stacking problem */
+/* File		: box_stacking.cpp
+   Deskripsi	: mencari kemungkinan tumpukan tertinggi dari balok dengan ukuran tertentu
+   		  menggunakan pemrograman dinamis
+   Nama		: Gregorius Willy Adiguno P.
+   NIM		: 24060119130076 */
 #include<stdio.h>
 #include<stdlib.h>
 	 
