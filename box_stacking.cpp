@@ -76,7 +76,7 @@ int maxStackHeight( Box arr[], int n ){
    		for (int j = 0; j < i; j++ ){
    			if ( rot[i].p < rot[j].p && rot[i].l < rot[j].l && msh[i] < msh[j] + rot[i].t){
 				msh[i] = msh[j] + rot[i].t;
-	    	}
+	    		}
    		}   		
    	}
       
@@ -94,10 +94,10 @@ int maxStackHeight( Box arr[], int n ){
 /* Driver program */
 int main(){
 	Box balok[] = { 
-//		{ 1, 2, 3 },
-	    { 4, 5, 6 },
-//	    { 7, 8, 9 },
-		};
+		{ 1, 2, 3 },
+		{ 4, 5, 6 },
+		{ 7, 8, 9 },
+	};
 	int n = sizeof(balok)/sizeof(balok[0]);
 	
 	printf("\nTinggi tumpukan maksimum adalah %d\n", maxStackHeight (balok, n) );
